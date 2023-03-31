@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       spacing: {
         '18' : '68px',
-      }
+      },
     },
   },
   plugins: [],

@@ -1,8 +1,8 @@
-import Navbar from "../navbar/navbar";
+import Navbar from "./navbar/navbar";
 
 const Header = () => {
     return(
-        <div className="flex justify-center h-18 items-center" style={{background: "rgb(156 149 149 / 68%)"}}> 
+        <div className="flex justify-center h-18 items-center bg-zinc-600/25"> 
             <Navbar />
         </div>
     )
