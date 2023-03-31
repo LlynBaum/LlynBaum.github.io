@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @layer base{
+    body{
+        background-color: rgb(43, 43, 43);
+        color: white;
+        @apply font-sans;
+    }
     main{
         min-height: calc(100vh - 68px - 68px);
-        @apply font-sans;
     }
 }
