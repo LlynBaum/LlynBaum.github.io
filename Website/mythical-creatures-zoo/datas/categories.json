@@ -1,0 +1,19 @@
+{
+    "categories" : [
+        {
+            "category" : "Air",
+            "backgroundImgSrc" : "",
+            "hoverImgSrc" : ""
+        },
+        {
+            "category" : "Fire",
+            "backgroundImgSrc" : "",
+            "hoverImgSrc" : ""
+        },
+        {
+            "category" : "Unheimliche",
+            "backgroundImgSrc" : "",
+            "hoverImgSrc" : ""
+        }
+    ]
+}

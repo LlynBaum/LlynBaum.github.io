@@ -10,6 +10,12 @@ module.exports = {
       spacing: {
         '18' : '68px',
       },
+      backgroundImage: {
+        'banner': "url('../public/banner.png')"
+      },
+      fontFamily: {
+        'Sedgwick': ['"Sedgwick Ave Display"', 'cursive']
+      }
     },
   },
   plugins: [],
