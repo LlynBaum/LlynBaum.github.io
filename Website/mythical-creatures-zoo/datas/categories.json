@@ -3,12 +3,12 @@
         {
             "category" : "Air",
             "backgroundImgSrc" : "",
-            "hoverImgSrc" : ""
+            "hoverImgSrc" : "Pegasus"
         },
         {
             "category" : "Fire",
             "backgroundImgSrc" : "",
-            "hoverImgSrc" : ""
+            "hoverImgSrc" : "phoenix"
         },
         {
             "category" : "Unheimliche",
