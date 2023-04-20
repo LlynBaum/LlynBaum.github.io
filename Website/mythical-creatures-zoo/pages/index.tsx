@@ -1,5 +1,5 @@
 import HoverBar from "@/components/hoverbar";
-import categories from "@/datas/categories.json";
+import categories from "@/datas/categories";
 
 export default function Home() {
   return (
@@ -12,8 +12,8 @@ export default function Home() {
 
         <div className="h-96 flex flex-col gap-y-6">
         {
-          categories.categories.map(c => 
-            <HoverBar HoverBarProp={c}></HoverBar>
+          categories.map(c => 
+            <HoverBar HoverBarProp={c} styles="w-screen h-1/3" />
           )
         }
         </div>

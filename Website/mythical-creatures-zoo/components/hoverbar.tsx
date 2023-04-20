@@ -1,15 +1,23 @@
+import { StaticImageData } from "next/image";
+
 interface HoverBarProp{
     category: string
-    backgroundImgSrc: string
-    hoverImgSrc: string
+    img: StaticImageData
 }
 
-const HoverBar = ({HoverBarProp} : {HoverBarProp: HoverBarProp}) => {
+const HoverBar = ({HoverBarProp, styles} : {HoverBarProp: HoverBarProp, styles: string}) => {
+
+    const {category, img} = HoverBarProp;
+
+    const imgUrl = `url(${img.src})`;
+
+    const backroundStyle = {
+        backgroundImage: imgUrl
+    }
 
     return(
-        <div className={"bg-[url(' " + HoverBarProp.backgroundImgSrc + "')]" + " w-screen h-1/3 flex justify-center items-center"}>
-            <h2 className="font-Sedgwick">{HoverBarProp.category}</h2>
-            <img src={HoverBarProp.hoverImgSrc} className="h-full w-1/5"></img>
+        <div style={backroundStyle} className={" flex justify-center items-center " + styles}>
+            <h2 className="font-Sedgwick">{category}</h2>
         </div>
     )
 }
