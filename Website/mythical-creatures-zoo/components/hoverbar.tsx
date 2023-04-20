@@ -16,11 +16,9 @@ const HoverBar = ({HoverBarProp, styles} : {HoverBarProp: HoverBarProp, styles: 
         backgroundImage: imgUrl
     }
 
-    const style = {...bgPos, ...backroundStyle}
-
     return(
-        <div style={style} className={"flex justify-center items-center bg-cover " + styles}>
-            <h2 className="font-Sedgwick text-6xl">{category}</h2>
+        <div className={"flex justify-center items-center overflow-hidden " + styles}>
+            <img src={img.src} style={bgPos} className="object-cover"></img>
         </div>
     )
 }

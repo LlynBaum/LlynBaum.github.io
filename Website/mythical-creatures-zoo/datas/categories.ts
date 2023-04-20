@@ -12,18 +12,18 @@ interface Data{
 const categories : Data[] = [{
         "category" : "Air",
         "img" : pegasus,
-        "bgPos" : {backgroundPosition : "center 30%"}
+        "bgPos" : {objectPosition : "center 30%"}
 
     },
     {
         "category" : "Fire",
         "img" : phoenix,
-        "bgPos" : {backgroundPosition : "center 30%"}
+        "bgPos" : {objectPosition : "center 30%"}
     },
     {
         "category" : "Unheimliche",
         img: medusa,
-        "bgPos" : {backgroundPosition : "center 40%"}
+        "bgPos" : {objectPosition : "center 40%"}
     }
 ];
 
