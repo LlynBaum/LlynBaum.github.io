@@ -11,6 +11,6 @@
         @apply font-sans;
     }
     main{
-        min-height: calc(100vh - 68px - 68px - 25px);
+        min-height: calc(100vh - 68px - 68px);
     }
 }

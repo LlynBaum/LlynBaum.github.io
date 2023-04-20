@@ -9,14 +9,18 @@ module.exports = {
     extend: {
       spacing: {
         '18' : '68px',
+        '128' : '36rem'
       },
       backgroundImage: {
-        'banner': "url('../public/banner.png')"
+        'banner': "url('../public/img/banner.png')"
       },
       fontFamily: {
         'Sedgwick': ['"Sedgwick Ave Display"', 'cursive']
       }
     },
+    backgroundPosition: {
+      'c-45' : 'center 45%'
+    }
   },
   plugins: [],
 }
