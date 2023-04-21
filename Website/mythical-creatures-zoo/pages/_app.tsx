@@ -1,8 +1,9 @@
-import Footer from '@/components/footer/footer'
-import Header from '@/components/header/header'
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
-import Head from 'next/head'
+import Footer from '@/components/footer/footer';
+import Header from '@/components/header/header';
+import '@/styles/globals.css';
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
+import Banner from "@/components/banner";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       
       <Header />
+      <Banner />
       <Component {...pageProps} />
       <Footer />
     </>

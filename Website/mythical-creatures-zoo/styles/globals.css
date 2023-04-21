@@ -6,11 +6,11 @@
 
 @layer base{
     body{
-        background-color: white;
+        background-color: rgb(207, 153, 192);
         color: rgb(43, 43, 43);
         @apply font-sans;
     }
     main{
-        min-height: calc(100vh - 68px - 68px);
+        min-height: calc(100vh - 68px - 68px - 320);
     }
 }

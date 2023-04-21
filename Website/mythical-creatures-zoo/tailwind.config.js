@@ -16,10 +16,19 @@ module.exports = {
       },
       fontFamily: {
         'Sedgwick': ['"Sedgwick Ave Display"', 'cursive']
+      },
+      colors: {
+        'purple-black': '#20072b',
+        'purple-mid': '#6815ab',
+        'purple-950': 'rgba(100, 11, 154, 90%);'
+      },
+      backgroundPosition: {
+        'c-45' : 'center 45%',
+        'c-10' : '53% 17.2%'
+      },
+      brightness: {
+        25: '.25'
       }
-    },
-    backgroundPosition: {
-      'c-45' : 'center 45%'
     }
   },
   plugins: [],

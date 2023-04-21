@@ -21,7 +21,7 @@ const categories : Data[] = [{
         "bgPos" : {objectPosition : "center 30%"}
     },
     {
-        "category" : "Unheimliche",
+        "category" : "Monsters",
         img: medusa,
         "bgPos" : {objectPosition : "center 40%"}
     }

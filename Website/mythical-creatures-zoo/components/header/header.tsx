@@ -2,9 +2,14 @@ import Navbar from "./navbar/navbar";
 
 const Header = () => {
     return(
-        <div className="flex justify-center h-18 items-center bg-zinc-600/25 font-sans"> 
-            <Navbar />
-        </div>
+        <>
+            <div className="relative flex justify-center items-center">
+                <div className="flex justify-center h-18 w-screen brightness-25 items-center bg-banner bg-c-10" />
+                <div className="absolute bg-transparent text-slate-50 font-Sedgwick">
+                    <Navbar />
+                </div>
+            </div>
+        </>
     )
 }
 
