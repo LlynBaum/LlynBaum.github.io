@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return(
-        <footer className="bg-purple-950 h-18 font-sans">
+        <footer className="h-18 font-sans bg-black/50">
             <div className="flex gap-x-2">
                 <Link href="/imprint">Impressum</Link>
                 <p>	&#124;</p>

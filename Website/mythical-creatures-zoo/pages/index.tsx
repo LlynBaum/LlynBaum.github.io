@@ -1,11 +1,12 @@
 import HoverBar from "@/components/hoverbar";
 import categories from "@/datas/categories";
+import Banner from "@/components/banner";
 
 export default function Home() {
   return (
     <>
       <main>
-        <div className="w-screen h-fit flex flex-col justify-center items-center">
+        <Banner />        <div className="w-screen h-fit flex flex-col justify-center items-center">
           <div className="h-96 w-5/6 flex justify-center items-center gap-x-6">
             {
               categories.map(c => {
@@ -17,7 +18,6 @@ export default function Home() {
             }
           </div>
         </div>
-        
       </main>
     </>
   )

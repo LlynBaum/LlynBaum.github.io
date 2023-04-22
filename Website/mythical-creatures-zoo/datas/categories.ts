@@ -7,23 +7,27 @@ interface Data{
     category: string
     img: StaticImageData
     bgPos: React.CSSProperties
+    href: string
 }
 
 const categories : Data[] = [{
         "category" : "Air",
         "img" : pegasus,
-        "bgPos" : {objectPosition : "center 30%"}
+        "bgPos" : {objectPosition : "center 30%"},
+        'href' : '/air'
 
     },
     {
         "category" : "Fire",
         "img" : phoenix,
-        "bgPos" : {objectPosition : "center 30%"}
+        "bgPos" : {objectPosition : "center 30%"},
+        'href' : '/fire'
     },
     {
         "category" : "Monsters",
         img: medusa,
-        "bgPos" : {objectPosition : "center 40%"}
+        "bgPos" : {objectPosition : "center 40%"},
+        'href' : '/monsters'
     }
 ];
 

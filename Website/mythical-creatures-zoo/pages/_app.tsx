@@ -3,7 +3,6 @@ import Header from '@/components/header/header';
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import Banner from "@/components/banner";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -15,10 +14,11 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <Header />
-      <Banner />
-      <Component {...pageProps} />
-      <Footer />
+      <div className='bg-black/60'>
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+      </div>
     </>
   )
 }
