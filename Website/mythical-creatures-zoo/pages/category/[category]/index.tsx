@@ -15,10 +15,18 @@ const Category = () => {
 
     const animalGroup = GetAnimalsByCategory(category)
 
+    let isFirst = true
+
     return (
         <main className='text-slate-50 font-Sedgwick'>
             <Banner title='Category' subTitle={category} height='12rem'/>
-            {animalGroup?.animals.map(anim => <AnimalBanner animal={anim} styles={{marginTop: "1rem", marginLeft: "2rem"}}/>)}
+            {animalGroup?.animals.map(anim => {
+                if(isFirst) {
+                    isFirst = false
+                    return <AnimalBanner animal={anim} styles={{marginLeft: "2rem"}}/>
+                }
+                return <AnimalBanner animal={anim} styles={{marginTop: "5rem", marginLeft: "2rem"}}/>
+            })}
         </main>
     )
 }

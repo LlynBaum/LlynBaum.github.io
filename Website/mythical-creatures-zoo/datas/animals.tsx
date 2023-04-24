@@ -1,6 +1,9 @@
 import pegasus from '@/public/img/pegasus.png'
 import phoenix from '@/public/img/phoenix.png'
 import medusa from '@/public/img/medusa.png'
+import dragon from '@/public/img/dragon.png'
+import mummie from '@/public/img/mummie.png'
+import hippogryph from '@/public/img/hippogryph.jpeg'
 import { StaticImageData } from 'next/image'
 
 interface AnimalGroup{
@@ -26,7 +29,7 @@ const Animals: AnimalGroup[] = [
             {
                 name: "Dragon",
                 description: "A Dragon ist eine grosse Kreatur die fliegen und feuer spucken kann.",
-                img: phoenix
+                img: dragon
             }
         ]
     },
@@ -41,7 +44,7 @@ const Animals: AnimalGroup[] = [
             {
                 name: "Hippogryph",
                 description: "Eine Kreuzung zwischen einem Pferd und einem Greif.",
-                img: pegasus
+                img: hippogryph
             }
         ]
     },
@@ -56,7 +59,7 @@ const Animals: AnimalGroup[] = [
             {
                 name: "Mummien",
                 description: "Mumien sind menschliche oder tierische Überreste, die durch eine spezielle Art der Konservierung über einen längeren Zeitraum hinweg erhalten geblieben sind.",
-                img: medusa
+                img: mummie
             }
         ]
     }
