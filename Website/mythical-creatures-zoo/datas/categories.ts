@@ -3,31 +3,26 @@ import phoenix from '@/public/img/phoenix.png'
 import medusa from '@/public/img/medusa.png'
 import { StaticImageData } from 'next/image';
 
-interface Data{
+interface Category{
     category: string
     img: StaticImageData
     bgPos: React.CSSProperties
-    href: string
 }
 
-const categories : Data[] = [{
-        "category" : "Air",
-        "img" : pegasus,
-        "bgPos" : {objectPosition : "center 30%"},
-        'href' : '/air'
-
+const categories : Category[] = [{
+        category : "Air",
+        img : pegasus,
+        bgPos : {objectPosition : "center 30%"}
     },
     {
-        "category" : "Fire",
-        "img" : phoenix,
-        "bgPos" : {objectPosition : "center 30%"},
-        'href' : '/fire'
+        category : "Fire",
+        img : phoenix,
+        bgPos : {objectPosition : "center 30%"}
     },
     {
-        "category" : "Monsters",
+        category : "Monsters",
         img: medusa,
-        "bgPos" : {objectPosition : "center 40%"},
-        'href' : '/monsters'
+        bgPos : {objectPosition : "center 40%"}
     }
 ];
 

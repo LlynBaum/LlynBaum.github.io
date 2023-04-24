@@ -7,7 +7,7 @@
 @layer base{
     body{
         color: rgb(43, 43, 43);
-        @apply font-sans;
+        @apply font-Sedgwick;
 
         background: url('../public/img/banner.png') no-repeat center center fixed;
         -webkit-background-size: cover;

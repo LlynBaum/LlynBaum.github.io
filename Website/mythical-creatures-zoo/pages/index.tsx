@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <>
       <main>
-        <Banner />        <div className="w-screen h-fit flex flex-col justify-center items-center">
+        <Banner title="Phantastische Tierwelt" subTitle="Entdecke die Welt der Mythical Creatures" height="20rem"/>        
+        <div className="w-screen h-fit flex flex-col justify-center items-center">
           <div className="h-96 w-5/6 flex justify-center items-center gap-x-6">
             {
               categories.map(c => {

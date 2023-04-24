@@ -6,7 +6,6 @@ const Navbar = () => {
         <nav>
             <ul className='flex gap-6'>
                 <NavItem href='/'>Home</NavItem>
-                <NavItem href='/categories'>Categories</NavItem>
                 <NavItem href='/map'>Map</NavItem>
                 <NavItem href='/about'>About</NavItem>
             </ul>

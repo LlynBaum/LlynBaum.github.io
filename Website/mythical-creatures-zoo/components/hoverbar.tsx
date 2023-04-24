@@ -5,12 +5,13 @@ interface HoverBarProp{
     category: string
     img: StaticImageData
     bgPos: React.CSSProperties
-    href: string
 }
 
 const HoverBar = ({HoverBarProp, styles} : {HoverBarProp: HoverBarProp, styles: string}) => {
 
-    const {category, img, bgPos, href} = HoverBarProp;
+    const {category, img, bgPos} = HoverBarProp;
+
+    const href = `category/${category}`;
 
     return(
         <Link href={href} className={"flex justify-center items-center overflow-hidden relative group cursor-pointer shadow-xl shadow-gray-500/30 " + styles}>
