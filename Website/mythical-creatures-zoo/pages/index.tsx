@@ -12,7 +12,7 @@ export default function Home() {
             {
               categories.map(c => {
                 return (
-                  <HoverBar HoverBarProp={c} styles={"max-w-1/3 max-h-full"} />
+                  <HoverBar key={c.category} HoverBarProp={c} styles={"max-w-1/3 max-h-full"} />
                 )
               }
               )
