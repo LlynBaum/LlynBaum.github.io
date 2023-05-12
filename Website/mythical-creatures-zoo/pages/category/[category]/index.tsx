@@ -9,11 +9,13 @@ const Category = () => {
 
     if(typeof category!=='string') {
         return(
-            <main></main>
+            <main>
+                <h1>Error: invalid category</h1>
+            </main>
         )
     }
 
-    const animalGroup = GetAnimalsByCategory(category)
+    const animalGroup = GetAnimalsByCategory(category);
 
     let isFirst = true
 
