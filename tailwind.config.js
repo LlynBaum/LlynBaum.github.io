@@ -28,6 +28,12 @@ module.exports = {
       },
       brightness: {
         25: '.25'
+      },
+      minHeight: {
+        '80': '20rem',
+      },
+      minWidth: {
+        '2/3': '66.666667%',
       }
     }
   },
