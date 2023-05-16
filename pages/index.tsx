@@ -6,8 +6,9 @@ export default function Home() {
   return (
     <>
       <main>
-        <Banner title="Phantastische Tierwelt" subTitle="Entdecke die Welt der Mythical Creatures" height="20rem"/>        
-        <div className="w-screen h-fit flex flex-col justify-center items-center">
+        <Banner title="Phantastische Tierwelt" subTitle="Entdecke die Welt der Mythical Creatures" height="15rem"/>      
+        <div className="w-screen h-fit flex flex-col justify-center items-center"> 
+          <h2 className="font-bold text-3xl text-zinc-100 mt-10 text-center">Animals:</h2>
           <div className="h-96 w-5/6 flex justify-center items-center lg:flex-row flex-col gap-6">
             {
               categories.map(c => {
