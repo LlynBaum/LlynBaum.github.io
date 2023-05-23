@@ -2,10 +2,44 @@ import { useRouter } from 'next/router'
 import Banner from '@/components/banner'
 import AnimalBanner from '@/components/animalBanner'
 import { GetAnimalsByCategory } from '@/datas/animals'
+import { ParsedUrlQuery } from 'querystring';
+import type { GetStaticProps, GetStaticPaths, } from 'next'
+import { type } from 'os'
 
-const Category = () => {
-    const router = useRouter()
-    const { category } = router.query
+export const getStaticPaths : GetStaticPaths = async () => {
+    return {
+        paths: [
+            {
+                params: {category: 'Air'}
+            },
+            {
+                params: {category: 'Fire'}
+            },
+            {
+                params: {category: 'Monsters'}
+            }
+        ],
+        fallback: false
+    }
+}
+
+type Props = {
+    category: string;
+}
+
+interface Params extends ParsedUrlQuery {
+    category: string,
+ }
+
+export const getStaticProps : GetStaticProps<Props, Params> = async (context) => {
+
+    const category = context.params!.category
+    return {
+        props: { category: category }
+    }
+}
+
+const Category = ({category} : {category: string}) => {
 
     if(typeof category!=='string') {
         return(
