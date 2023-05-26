@@ -1,6 +1,7 @@
 import {TransformWrapper, TransformComponent} from 'react-zoom-pan-pinch'
 import mapImg from '@/public/img/map.png';
 import {saveAs} from "file-saver";
+import Image from 'next/image';
 
 const Map = () => {
     return (
@@ -10,7 +11,7 @@ const Map = () => {
                 <div className='h-fit w-fit border-2 border-neutral-600 bg-black'>
                     <TransformWrapper>
                         <TransformComponent>
-                            <img src={mapImg.src} className='lg:h-128 md:h-80 h-56 w-fit border-4 border-lime-100' />
+                            <Image src={mapImg.src} alt='Zoo Map' className='lg:h-128 md:h-80 h-56 w-fit border-4 border-lime-100' />
                         </TransformComponent>
                     </TransformWrapper>
                 </div>
