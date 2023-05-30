@@ -1,10 +1,8 @@
-import { useRouter } from 'next/router'
 import Banner from '@/components/banner'
 import AnimalBanner from '@/components/animalBanner'
 import { GetAnimalsByCategory } from '@/datas/animals'
 import { ParsedUrlQuery } from 'querystring';
 import type { GetStaticProps, GetStaticPaths, } from 'next'
-import { type } from 'os'
 
 export const getStaticPaths : GetStaticPaths = async () => {
     return {
@@ -55,13 +53,13 @@ const Category = ({category} : {category: string}) => {
 
     return (
         <main className='text-slate-50 font-Sedgwick'>
-            <Banner title='Category' subTitle={category} height='12rem'/>
+            <Banner title='Kategorie' subTitle={category} height='12rem'/>
             {animalGroup?.animals.map(anim => {
                 if(isFirst) {
                     isFirst = false
-                    return <AnimalBanner key={anim.name} animal={anim} styles={{marginLeft: "2rem"}}/>
+                    return <AnimalBanner key={anim.name} animal={anim} styles={{marginLeft: "2rem", marginBottom: "3rem"}}/>
                 }
-                return <AnimalBanner key={anim.name} animal={anim} styles={{marginTop: "5rem", marginLeft: "2rem"}}/>
+                return <AnimalBanner key={anim.name} animal={anim} styles={{marginTop: "2rem", marginLeft: "2rem", marginBottom: "3rem"}}/>
             })}
         </main>
     )

@@ -11,7 +11,7 @@ const Map = () => {
                 <div className='h-fit w-fit border-2 border-neutral-600 bg-black'>
                     <TransformWrapper>
                         <TransformComponent>
-                            <Image src={mapImg.src} alt='Zoo Map' className='lg:h-128 md:h-80 h-56 w-fit border-4 border-lime-100' />
+                            <Image src={mapImg.src} alt='Zoo Map' width={mapImg.width} height={mapImg.height} className='lg:h-128 md:h-80 h-56 w-fit border-4 border-lime-100' />
                         </TransformComponent>
                     </TransformWrapper>
                 </div>
