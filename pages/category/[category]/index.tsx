@@ -8,13 +8,13 @@ export const getStaticPaths : GetStaticPaths = async () => {
     return {
         paths: [
             {
-                params: {category: 'Air'}
+                params: {category: 'Luft'}
             },
             {
-                params: {category: 'Fire'}
+                params: {category: 'Feuer'}
             },
             {
-                params: {category: 'Monsters'}
+                params: {category: 'Monster'}
             }
         ],
         fallback: false

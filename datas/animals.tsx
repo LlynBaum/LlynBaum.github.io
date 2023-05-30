@@ -19,7 +19,7 @@ interface Animal{
 
 const Animals: AnimalGroup[] = [
     {
-        category: "Fire",
+        category: "Feuer",
         animals: [
             {
                 name: "Phoenix",
@@ -27,14 +27,14 @@ const Animals: AnimalGroup[] = [
                 img: phoenix
             },
             {
-                name: "Dragon",
+                name: "Drache",
                 description: "A Dragon ist eine grosse Kreatur die fliegen und feuer spucken kann.",
                 img: dragon
             }
         ]
     },
     {
-        category: "Air",
+        category: "Luft",
         animals: [
             {
                 name: "Pegasus",
@@ -49,7 +49,7 @@ const Animals: AnimalGroup[] = [
         ]
     },
     {
-        category: "Monsters",
+        category: "Monster",
         animals: [
             {
                 name: "Medusa",

@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import NavItem from './navitem'
 
 const Navbar = () => {
@@ -6,8 +5,8 @@ const Navbar = () => {
         <nav>
             <ul className='flex gap-6'>
                 <NavItem href='/'>Home</NavItem>
-                <NavItem href='/map'>Map</NavItem>
-                <NavItem href='/about'>About</NavItem>
+                <NavItem href='/map'>Karte</NavItem>
+                <NavItem href='/about'>Über uns</NavItem>
             </ul>
         </nav>
     )

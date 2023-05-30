@@ -10,17 +10,17 @@ interface Category{
 }
 
 const categories : Category[] = [{
-        category : "Air",
+        category : "Luft",
         img : pegasus,
         bgPos : {objectPosition : "center 30%"}
     },
     {
-        category : "Fire",
+        category : "Feuer",
         img : phoenix,
         bgPos : {objectPosition : "center 30%"}
     },
     {
-        category : "Monsters",
+        category : "Monster",
         img: medusa,
         bgPos : {objectPosition : "center 40%"}
     }
