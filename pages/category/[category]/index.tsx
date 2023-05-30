@@ -57,9 +57,9 @@ const Category = ({category} : {category: string}) => {
             {animalGroup?.animals.map(anim => {
                 if(isFirst) {
                     isFirst = false
-                    return <AnimalBanner key={anim.name} animal={anim} styles={{marginLeft: "2rem", marginBottom: "3rem"}}/>
+                    return <AnimalBanner key={anim.name} animal={anim} styles={{marginLeft: "2rem", marginBottom: "5rem"}}/>
                 }
-                return <AnimalBanner key={anim.name} animal={anim} styles={{marginTop: "2rem", marginLeft: "2rem", marginBottom: "3rem"}}/>
+                return <AnimalBanner key={anim.name} animal={anim} styles={{marginLeft: "2rem", marginBottom: "5rem"}}/>
             })}
         </main>
     )
