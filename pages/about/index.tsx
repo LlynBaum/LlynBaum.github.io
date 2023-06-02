@@ -2,14 +2,22 @@ const About = () => {
     return(
         <main>
             <div className="flex flex-col">
-                <h1 className="text-center font-bold text-4xl text-zinc-100 mt-10">Über uns</h1>
-                <div className="max-w-1/2 ml-12 text-zinc-100">
-                    <h2 className="font-bold text-2xl text-zinc-100 mt-8 mb-3">Address:</h2>
-                    <address>
-                    Phantastische Tierwelt Zoo<br />
-                    123 Fantasie Boulevard<br />
-                    Zauberland, 54321<br />         
-                    </address>
+                <h1 className="text-center font-bold text-4xl text-zinc-100 mt-10 mb-8">Über uns</h1>
+                <div className="ml-12 text-zinc-100">
+                    <div className="flex justify-around items-center">
+                        <div className="mt-8 mb-3">
+                            <h2 className="font-bold text-2xl text-zinc-100">Address:</h2>
+                            <address>
+                                Phantastische Tierwelt Zoo<br />
+                                123 Fantasie Boulevard<br />
+                                Zauberland, 54321<br />         
+                            </address>
+                        </div>
+                        <iframe className="mr-16"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.3032238745614!2d8.57247311924617!3d47.384290218218865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa0ea12b7a697%3A0x31929c3728d4b721!2sZoo%20Z%C3%BCrich!5e0!3m2!1sen!2sch!4v1685691303697!5m2!1sen!2sch" 
+                            width="600" height="450" style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
                 </div>
                     <div className="max-w-3/4 ml-12 text-zinc-100 mt-8">
                     <h2 className="font-bold text-2xl text-zinc-100 mt-7 mb-3">Über uns:</h2>
