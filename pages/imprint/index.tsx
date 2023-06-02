@@ -15,7 +15,7 @@ const Imprint = () => {
 
                 <h2>Kontakt:</h2>
                 <p>Telefon: +41 789092778</p>
-                <p>E-Mail: llyn.baumann@gmx.ch</p>
+                <p>E-Mail: llyn.baumann@lernende.bbw.ch</p>
                 <br />
 
                 <h2>Hosting-Provider:</h2>
