@@ -23,7 +23,7 @@ const About = () => {
                         Phantastische Tierwelt ist mehr als nur ein Zoo - es ist ein Ort, an dem Träume wahr werden. Ob Sie Fantasy-Enthusiast, Tierliebhaber oder einfach nur auf der Suche nach einem einzigartigen und unvergesslichen Tag sind, laden wir Sie ein, die Wunder unserer mythischen Menagerie zu erkunden.
                         </p>
                     </div> 
-                <div className="max-w-3/4 ml-12 text-zinc-100 mt-8">
+                <div className="max-w-3/4 ml-12 text-zinc-100 mt-8 mb-5">
                         <h2 className="font-bold text-2xl text-zinc-100 mt-7 mb-3">Vision:</h2>
                     <p className="mb-1">Die Vision des Phantastische Tierwelt Zoos besteht darin, durch die Magie mythischer Kreaturen ein Gefühl von Staunen und Phantasie in unseren Besuchern zu wecken. Unser Ziel ist es, eine Welt zu schaffen, in der die Grenze zwischen Fantasie und Realität verschwimmt und in der Besucher die ehrfurchterregende Majestät von Kreaturen erleben können, die nur in der Welt der Mythen und Legenden existieren.</p>
                     <p className="mb-1">Unser Ziel ist es, eine sichere und bereichernde Umgebung für unsere Tiere zu schaffen, in der sie gedeihen und für die einzigartigen und wundersamen Wesen geschätzt werden, die sie sind. Wir streben danach, führend in der Pflege und Erhaltung mythischer Kreaturen zu sein und arbeiten daran, ihr Überleben für kommende Generationen zu sichern.</p>
